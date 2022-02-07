@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "productName": "Cantilever chair",
+    "code": "Y523201",
+    "price": "$42.00",
+    "image": "https://i.ibb.co/wgbNXLF/fp-chair-1.png"
+  },
+  {
+    "id": "02",
+    "productName": "Cantilever chair",
+    "code": "Y523202",
+    "price": "$42.00",
+    "image": "https://i.ibb.co/n6825c8/fp-chair-2.png"
+  },
+  {
+    "id": "03",
+    "productName": "Cantilever chair",
+    "code": "Y523203",
+    "price": "$42.00",
+    "image": "https://i.ibb.co/7S6zQsN/fp-chair-3.png"
+  },
+  {
+    "id": "04",
+    "productName": "Cantilever chair",
+    "code": "Y523204",
+    "price": "$42.00",
+    "image": "https://i.ibb.co/ChJg7pY/fp-chair-4.png"
+  }
+]

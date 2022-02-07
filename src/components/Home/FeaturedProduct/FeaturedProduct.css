@@ -1,0 +1,38 @@
+.card {
+  height: 50vh;
+  margin: 0.938rem 0;
+}
+
+.img-body {
+  padding: 0.625rem;
+  display: flex;
+  justify-content: center;
+}
+
+.img-body img {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.card-content {
+  text-align: center;
+  padding: 0.625rem 0;
+}
+
+.card:hover .card-content {
+  background-color: #2F1AC4;
+  transition: 0.5s;
+}
+
+.fp-body:hover .card-content h3,
+.fp-body:hover .card-content p {
+  color: #fff;
+}
+
+.card-content h3 {
+  color: #FB2E86;
+}
+
+.card-content p {
+  color: #151875;
+}

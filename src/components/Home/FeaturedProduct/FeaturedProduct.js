@@ -1,13 +1,20 @@
 import React from "react";
-import Container from "../../Styles/Container.styles";
 import "./FeaturedProduct.css";
 
-const FeaturedProduct = () => {
+const FeaturedProduct = (props) => {
+  const { productName, code, price, image } = props.product;
   return (
-    <div>
-      <Container>
-        <h1>Hi</h1>
-      </Container>
+    <div className="fp-body">
+      <div className="card">
+        <div className="img-body">
+          <img src={image} alt="" />
+        </div>
+        <div className="card-content">
+          <h3>{productName}</h3>
+          <p>Code: {code}</p>
+          <p>{price}</p>
+        </div>
+      </div>
     </div>
   );
 };
