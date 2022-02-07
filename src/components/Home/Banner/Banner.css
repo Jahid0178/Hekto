@@ -11,12 +11,17 @@
   align-items: center;
 }
 
+.banner-content {
+  padding: 1.875rem;
+}
+
 .banner-content h6 {
   color: #FB2E86;
 }
 
 .banner-content p {
   color: #8A8FB9;
+  text-align: justify;
 }
 
 .promotional-img-container {
