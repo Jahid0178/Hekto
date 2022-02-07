@@ -6,6 +6,7 @@ const ShopBtn = styled.button`
   border: none;
   color: #fff;
   border-radius: 0.188rem;
+  cursor: pointer;
 `;
 
 export default ShopBtn;
