@@ -1,0 +1,22 @@
+.error-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error-title {
+  color: #101750;
+}
+
+.error-img {
+  width: 50%;
+}
+
+.back-to-home-btn {
+  padding: 0.625rem 1.875rem;
+  background: #FB2E86;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 0.188rem;
+}
