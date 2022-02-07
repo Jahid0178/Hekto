@@ -1,6 +1,7 @@
 .card {
   height: 50vh;
   margin: 0.938rem 0;
+  cursor: pointer;
 }
 
 .img-body {
