@@ -1,0 +1,44 @@
+[
+  {
+    "id": "01",
+    "image": "https://i.ibb.co/ZW6hkGj/lp-chair-1.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  },
+  {
+    "id": "02",
+    "image": "https://i.ibb.co/HgD2j73/lp-chair-2.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  },
+  {
+    "id": "03",
+    "image": "https://i.ibb.co/kxsTpfy/lp-chair-3.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  },
+  {
+    "id": "04",
+    "image": "https://i.ibb.co/Gc6hFPL/lp-chair-4.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  },
+  {
+    "id": "05",
+    "image": "https://i.ibb.co/rxCs8Pt/lp-chair-5.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  },
+  {
+    "id": "06",
+    "image": "https://i.ibb.co/9wnTXb2/lp-chair-6.png",
+    "productName": "Comfort Handy Craft",
+    "offerPrice": "$42.00",
+    "price": "$65.00"
+  }
+]

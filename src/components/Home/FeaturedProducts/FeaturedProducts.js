@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 import FeaturedProduct from "../FeaturedProduct/FeaturedProduct";
+import "./FeaturedProducts.css";
 
 const FeaturedProducts = () => {
   const [products, setProducts] = useState([]);
@@ -17,6 +18,7 @@ const FeaturedProducts = () => {
   return (
     <>
       <Container>
+        <h1 className="featured-product-title">Featured Product</h1>
         <Swiper
           slidesPerView={4}
           spaceBetween={30}

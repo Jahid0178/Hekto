@@ -1,0 +1,25 @@
+.latest-product-container {
+  margin-top: 1.875rem;
+}
+
+.latest-product-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  color: #151875;
+  font-weight: 600;
+}
+
+.offer-price {
+  color: #151875;
+  font-weight: 600;
+  margin-right: 0.625rem;
+}
+
+.regular-price {
+  color: #FB2448;
+  font-weight: 600;
+  text-decoration: line-through;
+}
