@@ -1,0 +1,28 @@
+.banner-body {
+  width: 100%;
+  height: 100vh;
+  background: #F2F0FF;
+}
+
+.banner-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.banner-content h6 {
+  color: #FB2E86;
+}
+
+.banner-content p {
+  color: #8A8FB9;
+}
+
+.promotional-img-container {
+  padding: 3.125rem;
+}
+
+.promotional-img {
+  width: 100%;
+}

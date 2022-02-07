@@ -2,10 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import Nav from "../../Styles/Navbar.styles";
 import Logo from "../../../assets/Home/Hekto.png";
-import NavLi from "../../Styles/Navbar.li.styles";
-import NavUl from "../../Styles/Navbar.ul.styles";
 import Container from "../../Styles/Container.styles";
-
+import "./Navigation.css";
 const Navigation = () => {
   return (
     <Container>
@@ -13,38 +11,62 @@ const Navigation = () => {
         <div>
           <img src={Logo} alt="" />
         </div>
-        <NavUl>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="home">
+        <ul className="nav-ul">
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="/home"
+              className="nav-link"
+            >
               Home
             </NavLink>
-          </NavLi>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="pages">
+          </li>
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="pages"
+              className="nav-link"
+            >
               Pages
             </NavLink>
-          </NavLi>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="products">
+          </li>
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="products"
+              className="nav-link"
+            >
               Products
             </NavLink>
-          </NavLi>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="blog">
+          </li>
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="blog"
+              className="nav-link"
+            >
               Blog
             </NavLink>
-          </NavLi>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="shop">
+          </li>
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="shop"
+              className="nav-link"
+            >
               Shop
             </NavLink>
-          </NavLi>
-          <NavLi>
-            <NavLink style={{ textDecoration: "none" }} to="contact">
+          </li>
+          <li className="nav-li">
+            <NavLink
+              style={{ textDecoration: "none" }}
+              to="contact"
+              className="nav-link"
+            >
               Contact
             </NavLink>
-          </NavLi>
-        </NavUl>
+          </li>
+        </ul>
       </Nav>
     </Container>
   );

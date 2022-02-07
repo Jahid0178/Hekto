@@ -1,0 +1,16 @@
+.nav-ul {
+  list-style-type: none;
+}
+
+.nav-li {
+  display: inline-block;
+  margin: 0 0.625rem;
+}
+
+.nav-link {
+  color: #0D0E43;
+}
+
+.nav-link:hover {
+  color: #FB2E86;
+}
