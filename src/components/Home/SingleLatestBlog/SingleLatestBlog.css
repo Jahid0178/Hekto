@@ -1,0 +1,34 @@
+.single-blog-container {
+  cursor: pointer;
+  padding: 1.875rem 0;
+}
+
+.blog-img {
+  border-radius: 0.313rem;
+}
+
+.single-blog-content:hover .blog-title,
+.single-blog-content:hover .read-more-link {
+  color: #FB2E86;
+}
+
+.blog-header p {
+  display: inline-block;
+  color: #151875;
+}
+
+.author {
+  margin-right: 3.438rem;
+}
+
+.blog-title {
+  color: #151875;
+}
+
+.blog-desc {
+  color: #72718F;
+}
+
+.read-more-link {
+  color: #151875;
+}

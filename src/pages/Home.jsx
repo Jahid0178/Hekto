@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "../components/Home/Banner/Banner";
 import DiscountProduct from "../components/Home/DiscountProduct/DiscountProduct";
 import FeaturedProducts from "../components/Home/FeaturedProducts/FeaturedProducts";
+import LatestBlog from "../components/Home/LatestBlog/LatestBlog";
 import LatestProducts from "../components/Home/LatestProduct/LatestProducts";
 import Newsletter from "../components/Home/Newsletter/Newsletter";
 import OurClient from "../components/Home/OurClient/OurClient";
@@ -23,6 +24,7 @@ const Home = () => {
       <TopCategories />
       <Newsletter />
       <OurClient />
+      <LatestBlog />
     </div>
   );
 };
