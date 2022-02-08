@@ -1,0 +1,8 @@
+.our-client-container {
+  padding: 2.5rem 0;
+}
+
+.client-logo-content {
+  display: flex;
+  justify-content: center;
+}
