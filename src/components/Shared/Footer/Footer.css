@@ -1,0 +1,44 @@
+.footer-upper-container {
+  background: #EEEFFB;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.875rem;
+  color: #8A8FB9;
+  padding: 4rem 0;
+}
+
+.email-input {
+  width: 85%;
+  margin: 0.313rem 0;
+  padding: 0.625rem 0.313rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0.313rem;
+  border: 1px solid #ddd;
+  color: #8A8FB9;
+}
+
+.contact-container {
+  margin-top: 1.25rem;
+}
+
+.footer-ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-ul li {
+  margin: 1.25rem 0;
+}
+
+.footer-ul li .footer-link {
+  text-decoration: none;
+  color: #151875;
+}
+
+.footer-ul li .footer-link:hover {
+  color: #8A8FB9;
+}
