@@ -1,0 +1,30 @@
+[
+  {
+    "id": "01",
+    "image": "https://i.ibb.co/VTNw3JV/tp-chair-1.png",
+    "productName": "Cantilever chair",
+    "discountPrice": "$26.00",
+    "price": "$42.00"
+  },
+  {
+    "id": "02",
+    "image": "https://i.ibb.co/W6QwNWk/tp-chair-2.png",
+    "productName": "Cantilever chair",
+    "discountPrice": "$26.00",
+    "price": "$42.00"
+  },
+  {
+    "id": "03",
+    "image": "https://i.ibb.co/7vBDKTq/tp-chair-3.png",
+    "productName": "Cantilever chair",
+    "discountPrice": "$26.00",
+    "price": "$42.00"
+  },
+  {
+    "id": "04",
+    "image": "https://i.ibb.co/y02v4RB/tp-chair-4.png",
+    "productName": "Cantilever chair",
+    "discountPrice": "$26.00",
+    "price": "$42.00"
+  }
+]

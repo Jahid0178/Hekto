@@ -1,0 +1,27 @@
+.trending-product-box {
+  padding: 1.5rem 0;
+}
+
+.trending-product-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.trending-product-image {
+  width: 9.375rem;
+  height: 9.375rem;
+}
+
+.trending-product-details {
+  text-align: center;
+  color: #151875
+}
+
+.discount-price {
+  margin-right: 10px;
+}
+
+.price {
+  color: #ACABC3;
+  text-decoration: line-through;
+}
