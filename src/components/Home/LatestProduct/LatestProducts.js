@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Container from "../../Styles/Container.styles";
+import TitleHeader from "../../Styles/TitleHeader.styles";
 import LatestProduct from "../LatestProducts/LatestProduct";
 import "./LatestProducts.css";
 
@@ -14,7 +15,7 @@ const LatestProducts = () => {
   return (
     <div className="latest-products-container">
       <Container>
-        <h1 className="lp-title">Latest Product</h1>
+        <TitleHeader>Latest Product</TitleHeader>
         <div className="latest-products-content">
           {latestProducts.map((product) => (
             <LatestProduct key={product.id} product={product} />

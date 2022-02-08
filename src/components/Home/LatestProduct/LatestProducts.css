@@ -2,11 +2,6 @@
   padding: 2.5rem 0;
 }
 
-.lp-title {
-  text-align: center;
-  color: #151875;
-}
-
 .latest-products-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

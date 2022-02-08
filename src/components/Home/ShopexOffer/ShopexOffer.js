@@ -1,14 +1,15 @@
 import React from "react";
 import Container from "../../Styles/Container.styles";
+import TitleHeader from "../../Styles/TitleHeader.styles";
 import "./ShopexOffer.css";
 
 const ShopexOffer = () => {
   return (
-    <>
+    <div className="shopex-container">
       <Container>
-        <h2>Shopex Offer</h2>
+        <TitleHeader>What Shopex Offer!</TitleHeader>
       </Container>
-    </>
+    </div>
   );
 };
 
