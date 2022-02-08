@@ -1,0 +1,30 @@
+.tpb-container {
+  background: #F1F0FF;
+}
+
+.trending-products-box {
+  width: 85%;
+  margin: auto;
+}
+
+.trending-products-content {
+  display: flex;
+  align-items: center;
+}
+
+.trending-image {
+  width: 100%;
+  height: 100%;
+}
+
+.trending-title {
+  color: #151875;
+}
+
+.trending-desc {
+  color: #ACABC3;
+}
+
+.product-details {
+  color: #151875;
+}
