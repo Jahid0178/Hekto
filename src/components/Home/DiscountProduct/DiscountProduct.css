@@ -1,0 +1,31 @@
+.discount-product-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.discount-product-content {
+  padding-left: 2.5rem;
+}
+
+.product-details-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.discount-header {
+  color: #151875;
+}
+
+.product-name {
+  color: #FB2E86;
+}
+
+.product-desc {
+  color: #B7BACB;
+}
+
+.product-details {
+  color: #B8B8DC;
+}
