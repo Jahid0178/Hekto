@@ -1,3 +1,22 @@
 .shopex-container {
   padding: 2.5rem 0;
 }
+
+.offer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1.25rem;
+  padding: 2.5rem 0;
+}
+
+.offer-box {
+  text-align: center;
+}
+
+.offer-header {
+  color: #151875;
+}
+
+.offer-desc {
+  color: #8A8FB9;
+}
