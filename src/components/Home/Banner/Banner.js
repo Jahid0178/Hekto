@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../Styles/Container.styles";
-import ShopBtn from "../../Styles/Shop.btn.styles";
+import PrimaryBtn from "../../Styles/Primary.btn.styles";
 import "./Banner.css";
 import PromotionalImg from "../../../assets/Home/sofa promotional header.png";
 
@@ -20,7 +20,7 @@ const Banner = () => {
               et aperiam, dolor quo veniam reiciendis iste porro quasi tenetur
               consequuntur.
             </p>
-            <ShopBtn>Shop Now</ShopBtn>
+            <PrimaryBtn>Shop Now</PrimaryBtn>
           </div>
           <div className="promotional-img-container">
             <img className="promotional-img" src={PromotionalImg} alt="" />

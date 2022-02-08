@@ -4,11 +4,11 @@ import "./ShopexOffer.css";
 
 const ShopexOffer = () => {
   return (
-    <div>
+    <>
       <Container>
         <h2>Shopex Offer</h2>
       </Container>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const ShopBtn = styled.button`
+const PrimaryBtn = styled.button`
   padding: 0.75rem 1.87rem;
   background: #fb2e86;
   border: none;
@@ -9,4 +9,4 @@ const ShopBtn = styled.button`
   cursor: pointer;
 `;
 
-export default ShopBtn;
+export default PrimaryBtn;
