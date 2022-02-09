@@ -2,8 +2,15 @@ import React from "react";
 import Container from "../Styles/Container.styles";
 import "./ContactUs.css";
 import contactImage from "../../assets/Contact/contact-img.png";
+import { useForm } from "react-hook-form";
 
 const ContactUs = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  const onSubmit = (data) => console.log(data);
   return (
     <div>
       <div className="page-title">
@@ -45,9 +52,43 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="get-in-touch-container">
-            <div></div>
+            <div className="form-content">
+              <h2>Get In Touch</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mattis
+                neque ultrices tristique amet erat vitae eget dolor los vitae
+                lobortis quis bibendum quam.
+              </p>
+              <form onSubmit={handleSubmit(onSubmit)}>
+                <input
+                  className="contact-input"
+                  placeholder="Your Name*"
+                  {...register("name", { required: true })}
+                />
+                <input
+                  className="contact-input"
+                  placeholder="Your E-mail*"
+                  {...register("email", { required: true })}
+                />
+                <input
+                  className="contact-input"
+                  placeholder="Subject*"
+                  {...register("subject", { required: true })}
+                />
+                <textarea
+                  className="message-box"
+                  cols="50"
+                  rows="10"
+                  placeholder="Type Your Message*"
+                  {...register("message", { required: true })}
+                />
+                {errors.exampleRequired && <span>This field is required</span>}
+                <br />
+                <input className="submit-btn" type="submit" />
+              </form>
+            </div>
             <div>
-              <img src={contactImage} alt="" />
+              <img className="contact-img" src={contactImage} alt="" />
             </div>
           </div>
         </div>
