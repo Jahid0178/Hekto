@@ -1,0 +1,33 @@
+.page-title {
+  padding: 4rem 5rem;
+  background: #F6F5FF;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0.625rem;
+  padding: 2rem 0;
+}
+
+.contact-way-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.25rem;
+}
+
+.about-us-header,
+.contact-header {
+  color: #151875;
+}
+
+.contact-content,
+.about-us-desc {
+  color: #8A8FB9;
+}
+
+.get-in-touch-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 0;
+}
