@@ -3,7 +3,7 @@
   background: #F6F5FF;
 }
 
-.contact-container {
+.contacts-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 0.625rem;

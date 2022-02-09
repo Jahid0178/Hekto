@@ -18,7 +18,7 @@ const ContactUs = () => {
       </div>
       <Container>
         <div>
-          <div className="contact-container">
+          <div className="contacts-container">
             <div>
               <h2 className="about-us-header">Information About us</h2>
               <p className="about-us-desc">
