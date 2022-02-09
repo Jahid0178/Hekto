@@ -9,8 +9,8 @@ const SingleBlog = (props) => {
         <img className="blogImage" src={blogImage} alt={blogTitle} />
         <div className="blog-body">
           <div className="blog-header">
-            <span>{author}</span>
-            <span>{blogDate}</span>
+            <span className="author">{author}</span>
+            <span className="blog-date">{blogDate}</span>
           </div>
           <div className="blog-content">
             <h2>{blogTitle}</h2>

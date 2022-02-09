@@ -9,3 +9,29 @@
 .blogImage {
   width: 100%;
 }
+
+.blog-body {
+  margin: 1.25rem 0;
+}
+
+.blog-header .author {
+  padding: 0.313rem 0.625rem;
+  background: #FFE7F9;
+  border-radius: 0.188rem;
+  color: #151875;
+}
+
+.blog-header .blog-date {
+  background: #FFECE2;
+  padding: 0.313rem 0.625rem;
+  border-radius: 0.188rem;
+  color: #151875;
+}
+
+.blog-content h2 {
+  color: #151875;
+}
+
+.blog-content p {
+  color: #8A8FB9;
+}
