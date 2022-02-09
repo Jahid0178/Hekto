@@ -4,6 +4,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import Error from "./components/Error/Error";
 import Faq from "./components/FAQ/Faq";
 import Footer from "./components/Shared/Footer/Footer";
+import HeadingNav from "./components/Shared/HeadingNav/HeadingNav";
 import Navigation from "./components/Shared/Navigation/Navigation";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
@@ -15,6 +16,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <HeadingNav />
         <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />

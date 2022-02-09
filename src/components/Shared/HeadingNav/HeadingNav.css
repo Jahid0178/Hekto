@@ -1,0 +1,19 @@
+.heading-nav-container {
+  background: #7E33E0;
+  padding: 0.313rem 0;
+}
+
+.heading-nav-content {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.email {
+  margin-right: 2rem;
+}
+
+.information-content span {
+  margin: 0 1rem;
+  cursor: pointer;
+}
