@@ -1,5 +1,6 @@
 .nav-ul {
   list-style-type: none;
+  position: relative;
 }
 
 .nav-li {
@@ -13,4 +14,35 @@
 
 .nav-link:hover {
   color: #FB2E86;
+}
+
+/* dropdown menu */
+
+.dropdown-menu {
+  position: relative;
+}
+
+.dropdown-menu .dropdown-btn {
+  width: 9.375rem;
+  background: #E7E4F8;
+  position: absolute;
+  top: 200%;
+  padding: 0.625rem 0.313rem 0 0.313rem;
+  list-style-type: none;
+  border-radius: 5px;
+}
+
+.dropdown-btn .dropdown-item {
+  margin-bottom: 1rem;
+}
+
+.dropdown-btn .dropdown-item .dropdown-link {
+  color: #0D0E43;
+  text-decoration: none;
+}
+
+.dropdown-btn .dropdown-item .dropdown-link:hover {
+  color: #FB2E86;
+  text-decoration: underline;
+  transition: 0.1s;
 }
