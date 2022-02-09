@@ -1,0 +1,37 @@
+.page-title {
+  padding: 4rem 5rem;
+  background: #F6F5FF;
+}
+
+.about-us-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem 0;
+  grid-column-gap: 0.625rem;
+  align-items: center;
+}
+
+.about-bg-container {
+  padding: 0.625rem;
+}
+
+.about-img {
+  box-shadow: -10px 10px #2B3CAB;
+  border-radius: 10px;
+}
+
+.about-us-content {
+  padding: 0.625rem;
+}
+
+.about-us-content h2 {
+  color: #151875;
+}
+
+.about-us-content p {
+  color: #8A8FB9;
+}
+
+.contact-us-btn {
+  margin-top: 1.25rem;
+}
