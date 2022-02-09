@@ -1,0 +1,62 @@
+.page-title {
+  padding: 4rem 5rem;
+  background: #F6F5FF;
+}
+
+.faq-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0.625rem;
+  padding: 2rem 0;
+}
+
+.faq-content .faq-title {
+  color: #1D3178;
+}
+
+.general-information-content {
+  list-style: none;
+  padding: 0;
+  margin-top: 3rem;
+}
+
+.general-information-li {
+  margin: 2.5rem 0;
+}
+
+.general-information-li h2 {
+  color: #1D3178;
+}
+
+.general-information-li p {
+  color: #A1ABCC;
+}
+
+.question-content .question-title {
+  color: #1D3178;
+}
+
+.question-input-field,
+.question-message-box {
+  width: 80%;
+  margin: 0.625rem 0;
+  padding: 0.625rem 0.313rem;
+  border: 1px solid #CDCEDC;
+  border-radius: 0.313rem;
+  outline: none;
+  color: #A1ABCC;
+}
+
+.question-input-field::placeholder,
+.question-message-box::placeholder {
+  color: #A1ABCC;
+}
+
+.submit-btn {
+  padding: 0.625rem 1.25rem;
+  background: #FB2E86;
+  border: 0;
+  color: #fff;
+  border-radius: 0.188rem;
+  cursor: pointer;
+}

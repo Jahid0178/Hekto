@@ -7,7 +7,7 @@ import ShopexOffer from "../Home/ShopexOffer/ShopexOffer";
 
 const AboutUs = () => {
   return (
-    <div>
+    <>
       <div className="page-title">
         <h2>About Us</h2>
       </div>
@@ -33,7 +33,7 @@ const AboutUs = () => {
           <ShopexOffer />
         </Container>
       </div>
-    </div>
+    </>
   );
 };
 
