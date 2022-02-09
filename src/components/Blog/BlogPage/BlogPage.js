@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import OurClient from "../../Home/OurClient/OurClient";
 import Container from "../../Styles/Container.styles";
 import SingleBlog from "../SingleBlog/SingleBlog";
 import "./BlogPage.css";
@@ -27,6 +28,7 @@ const BlogPage = () => {
             </div>
             <div>2</div>
           </div>
+          <OurClient />
         </Container>
       </div>
     </div>

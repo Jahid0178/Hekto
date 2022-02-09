@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NotFound from "../../assets/404/404.png";
+import OurClient from "../Home/OurClient/OurClient";
 import Container from "../Styles/Container.styles";
 import "./Error.css";
 
@@ -16,6 +17,7 @@ const Error = () => {
               Back To Home
             </Link>
           </div>
+          <OurClient />
         </div>
       </Container>
     </div>

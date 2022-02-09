@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Styles/Container.styles";
 import "./Faq.css";
 import { useForm } from "react-hook-form";
+import OurClient from "../Home/OurClient/OurClient";
 
 const Faq = () => {
   const {
@@ -87,6 +88,7 @@ const Faq = () => {
               </div>
             </div>
           </div>
+          <OurClient />
         </Container>
       </div>
     </div>
