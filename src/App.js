@@ -6,6 +6,7 @@ import Faq from "./components/FAQ/Faq";
 import Footer from "./components/Shared/Footer/Footer";
 import HeadingNav from "./components/Shared/HeadingNav/HeadingNav";
 import Navigation from "./components/Shared/Navigation/Navigation";
+import SingleProductDetails from "./components/SingleProductDetails/SingleProductDetails";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -23,6 +24,10 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/products" element={<Products />} />
+          <Route
+            path="/single-product-details/:productId"
+            element={<SingleProductDetails />}
+          />
           <Route path="/faq" element={<Faq />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/shop" element={<Shop />} />

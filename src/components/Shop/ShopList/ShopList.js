@@ -7,6 +7,7 @@ import { faStarHalfStroke } from "@fortawesome/free-regular-svg-icons";
 import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { faMagnifyingGlassPlus } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const ShopList = (props) => {
   const {
@@ -16,7 +17,9 @@ const ShopList = (props) => {
     discountPrice,
     desc,
     rating,
+    id,
   } = props.product;
+
   return (
     <>
       <div className="shop-list-container">
@@ -39,9 +42,11 @@ const ShopList = (props) => {
           </span>
           <p className="product-desc">{desc}</p>
           <div className="shop-list-button-container">
-            <button className="shop-list-btn">
-              <FontAwesomeIcon className="btn-icon" icon={faShoppingCart} />
-            </button>
+            <Link to={`/single-product-details/${id}`}>
+              <button className="shop-list-btn">
+                <FontAwesomeIcon className="btn-icon" icon={faShoppingCart} />
+              </button>
+            </Link>
             <button className="shop-list-btn">
               <FontAwesomeIcon className="btn-icon" icon={faHeart} />
             </button>

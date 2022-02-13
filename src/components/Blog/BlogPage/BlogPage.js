@@ -12,7 +12,6 @@ const BlogPage = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-  console.log(blogs);
   return (
     <div>
       <div className="page-title">
