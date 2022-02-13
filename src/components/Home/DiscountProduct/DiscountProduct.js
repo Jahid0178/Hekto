@@ -20,23 +20,25 @@ const DiscountProduct = () => {
             <div className="product-details-container">
               <div className="product-details">
                 <p>
-                  <i class="fa-solid fa-check" /> Material expose like metals
+                  <i className="fa-solid fa-check" /> Material expose like
+                  metals
                 </p>
               </div>
               <div className="product-details">
                 <p>
-                  <i class="fa-solid fa-check" /> Clear lines and geomatric
+                  <i className="fa-solid fa-check" /> Clear lines and geomatric
                   figures
                 </p>
               </div>
               <div className="product-details">
                 <p>
-                  <i class="fa-solid fa-check" /> Simple neutral colours.
+                  <i className="fa-solid fa-check" /> Simple neutral colours.
                 </p>
               </div>
               <div className="product-details">
                 <p>
-                  <i class="fa-solid fa-check" /> Material expose like metals
+                  <i className="fa-solid fa-check" /> Material expose like
+                  metals
                 </p>
               </div>
             </div>
