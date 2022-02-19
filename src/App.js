@@ -3,6 +3,8 @@ import "./App.css";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Error from "./components/Error/Error";
 import Faq from "./components/FAQ/Faq";
+import SignIn from "./components/LogIn/SignIn/SignIn";
+import SignUp from "./components/LogIn/SignUp/SignUp";
 import Footer from "./components/Shared/Footer/Footer";
 import HeadingNav from "./components/Shared/HeadingNav/HeadingNav";
 import Navigation from "./components/Shared/Navigation/Navigation";
@@ -31,6 +33,8 @@ function App() {
           <Route path="/faq" element={<Faq />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/login" element={<SignIn />} />
+          <Route path="/sign-up" element={<SignUp />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Error />} />
         </Routes>

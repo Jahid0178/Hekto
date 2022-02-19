@@ -1,0 +1,49 @@
+.page-title {
+  padding: 4rem 5rem;
+  background: #F6F5FF;
+}
+
+.signin-container {
+  width: 100%;
+  padding: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-container p {
+  color: #9096B2;
+}
+
+.form-field {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  outline: none;
+  border: 1px solid #C2C5E1;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  background: #FB2E86;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.create-account-link {
+  margin: 10px 0;
+  display: inline-block;
+  color: #9096B2;
+  text-decoration: none;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+}
