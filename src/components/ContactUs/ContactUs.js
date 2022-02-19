@@ -87,7 +87,7 @@ const ContactUs = () => {
                 <input className="submit-btn" type="submit" />
               </form>
             </div>
-            <div>
+            <div className="contact-img-container">
               <img className="contact-img" src={contactImage} alt="" />
             </div>
           </div>

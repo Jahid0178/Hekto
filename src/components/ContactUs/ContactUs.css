@@ -74,3 +74,31 @@
   border-radius: 0.188rem;
   cursor: pointer;
 }
+
+/*------------------------
+      Responsive
+------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .contacts-container {
+    grid-template-columns: 1fr;
+  }
+
+  .get-in-touch-container {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-img-container {
+    margin: auto;
+  }
+
+  .contact-img {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-way-container {
+    grid-template-columns: 1fr;
+  }
+}
