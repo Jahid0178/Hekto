@@ -28,3 +28,18 @@
 .product-details {
   color: #151875;
 }
+
+
+/*-----------------------
+        Responsive
+-----------------------*/
+
+@media only screen and (max-width: 600px) {
+  .trending-products-content {
+    flex-direction: column;
+  }
+
+  .trending-image {
+    width: 300px;
+  }
+}
