@@ -6,3 +6,9 @@
   display: flex;
   justify-content: center;
 }
+
+@media only screen and (max-width: 1200px) {
+  .our-client-container {
+    display: none;
+  }
+}

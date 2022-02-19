@@ -4,7 +4,6 @@
 }
 
 .banner-container {
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -29,4 +28,25 @@
 
 .promotional-img {
   width: 100%;
+}
+
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .lhwQCj {
+    width: 100%;
+  }
+
+  .banner-container {
+    grid-template-columns: 1fr;
+  }
+
+  .promotional-img-container {
+    margin: auto;
+  }
+
+  .promotional-img {
+    width: 350px;
+  }
 }

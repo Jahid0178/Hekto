@@ -29,3 +29,18 @@
 .product-details {
   color: #B8B8DC;
 }
+
+
+@media only screen and (max-width: 992px) {
+  .discount-product-container {
+    grid-template-columns: 1fr;
+  }
+
+  .display-product-img-container {
+    margin: auto;
+  }
+
+  .display-product-img-container img {
+    width: 450px;
+  }
+}

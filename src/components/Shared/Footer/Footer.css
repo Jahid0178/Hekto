@@ -42,3 +42,13 @@
 .footer-ul li .footer-link:hover {
   color: #8A8FB9;
 }
+
+/*----------------------
+      Responsive
+----------------------*/
+
+@media only screen and (max-width: 1200px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

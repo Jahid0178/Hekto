@@ -3,3 +3,9 @@
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 1.875rem;
 }
+
+@media only screen and (max-width: 1200px) {
+  .latest-blog-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

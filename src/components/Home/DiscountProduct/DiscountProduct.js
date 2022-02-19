@@ -44,7 +44,7 @@ const DiscountProduct = () => {
             </div>
             <PrimaryBtn>Shop Now</PrimaryBtn>
           </div>
-          <div>
+          <div className="display-product-img-container">
             <img
               src="https://i.ibb.co/st2tmXh/discount-chair.png"
               alt="Discount Product"
