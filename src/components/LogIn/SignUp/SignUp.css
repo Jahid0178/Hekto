@@ -1,0 +1,43 @@
+.sign-up-container {
+  width: 100%;
+  padding: 7rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.create-form-field {
+  width: 30%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  outline: none;
+  border: 1px solid #C2C5E1;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  background: #FB2E86;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.google-account-btn {
+  width: 250px;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background: #FB2E86;
+  color: #fff;
+}
