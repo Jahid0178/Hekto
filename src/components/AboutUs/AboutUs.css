@@ -35,3 +35,27 @@
 .contact-us-btn {
   margin-top: 1.25rem;
 }
+
+/*-------------------
+    Responsive
+-------------------*/
+
+@media only screen and (max-width: 1200px) {
+  .about-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-us-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-bg-container {
+    margin: auto;
+  }
+
+  .about-img {
+    width: 450px;
+  }
+}
