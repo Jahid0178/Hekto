@@ -25,7 +25,7 @@ const BlogPage = () => {
                 <SingleBlog key={blog.id} blog={blog} />
               ))}
             </div>
-            <div>2</div>
+            <div className="blog-side-nav">2</div>
           </div>
           <OurClient />
         </Container>
