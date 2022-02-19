@@ -61,3 +61,27 @@
   background: transparent;
   border: none;
 }
+
+/*------------------------
+        Responsive
+------------------------*/
+
+@media only screen and (max-width: 768px) {
+  .shop-list-img-container {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .shop-list-container {
+    grid-template-columns: 1fr;
+  }
+
+  .shop-list-img-container {
+    margin: auto;
+  }
+
+  .product-image {
+    width: 150px;
+  }
+}
