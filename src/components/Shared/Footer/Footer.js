@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="footer-container">
           <div>
             <img src={FooterLogo} alt="Hekto" />
-            <div className="sign-up-container">
+            <div className="footer-sign-up-container">
               <input
-                className="email-input"
+                className="email-footer-input"
                 type="email"
                 placeholder="Enter Your Email"
               />

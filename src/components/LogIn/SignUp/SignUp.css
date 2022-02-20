@@ -1,6 +1,6 @@
 .sign-up-container {
   width: 100%;
-  padding: 7rem 0;
+  padding: 4rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +25,11 @@ input[type=submit] {
   border: 0;
   color: #fff;
   cursor: pointer;
+}
+
+.sign-in-link {
+  color: #9096B2;
+  margin: 10px 0;
 }
 
 .divider {

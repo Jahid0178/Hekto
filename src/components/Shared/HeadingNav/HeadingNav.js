@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Container from "../../Styles/Container.styles";
 import "./HeadingNav.css";
 
@@ -12,10 +13,18 @@ const HeadingNav = () => {
             <span className="phone">(+88) 01789-293801</span>
           </div>
           <div className="information-content">
-            <span>English</span>
-            <span>USD</span>
-            <span>Login</span>
-            <span>Wishlist</span>
+            <Link className="headingNav-link" to="#">
+              English
+            </Link>
+            <Link className="headingNav-link" to="#">
+              USD
+            </Link>
+            <Link className="headingNav-link" to="/sign-in">
+              Login
+            </Link>
+            <Link className="headingNav-link" to="#">
+              Wishlist
+            </Link>
           </div>
         </div>
       </Container>

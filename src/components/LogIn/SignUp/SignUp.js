@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { Link } from "react-router-dom";
 import Container from "../../Styles/Container.styles";
 import "./SignUp.css";
 
@@ -55,6 +56,9 @@ const SignUp = () => {
             {errors.exampleRequired && <span>This field is required</span>}
             <input className="input-field" type="submit" value="Sign Up" />
           </form>
+          <Link className="sign-in-link" to="/sign-in">
+            Already have an account? Please Sign In
+          </Link>
           <span className="divider">-------------OR-------------</span>
           <button className="google-account-btn">Google</button>
         </div>
